@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Anniversary</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+      
+        <audio controls>
+            <source src="instru.mp3" type="audio/wav" />
+            <source src="instru.mp3" type="audio/mpeg" />
+          </audio>
+          
+            
+            <p class="text-small" id="main">
+                Happy Anniversary dear wifey!</p>
+            <section class="wish">
+                <div class="slider-frame">
+                    <div class="slide-images">
+                        
+                        <div class="img-container">
+                            <img src="pic1.jpg">
+                        </div>
+                        <div class="img-container">
+                            <img src="pic3.jpg">
+                        </div>
+                        <div class="img-container">
+                            <img src="pic2.jpg">
+                        </div>
+                        <div class="img-container">
+                            <img src="pic4.jpg">
+                        </div>
+                        <div class="img-container">
+                            <img src="couple pic.jpg">
+                        </div>
+                        <div class="img-container">
+                            <img src="pic4.jpg">
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="box-main">
+                    <div class="firsthalf">
+                        <div class="left-col"><h1 id="quote">Love you<br> to the moon<br>and back.</h1></div>
+                        <div class="right-col"><p>Click here to play</p>
+                        <img src="play.jpg" id="icon">
+                        </div>
+                        <audio id="mysong">
+                            <source src="song4.mp3" type="audio/mp3">
+                        </audio>
+                        
+                            <br>
+                           <p>I cannot believe it’s been another perfect year with you by my side. Thank you for being my partner in crime, my confidante, and the love of my life. 
+                           </p>
+                    </div>
+                </div>
+            </section>
+            
+           
+            <script>
+                var mysong=document.getElementById("mysong");
+                var icon=document.getElementById("icon");
+                icon.onclick= function(){
+                    mysong.play();
+                }
+            </script>
+    </body>
+</html>
